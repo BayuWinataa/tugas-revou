@@ -1,0 +1,105 @@
+body {
+	font-family: Arial, sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+	text-align: justify;
+}
+
+.container {
+	display: flex;
+}
+
+.calculator {
+	background-color: #f0f0f0;
+	padding: 30px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.input-group,
+.input-kelamin {
+	margin-bottom: 15px;
+}
+
+.input-group label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.input-group input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.result {
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.perhitungan {
+	margin: 30px;
+	flex: 1;
+}
+.perhitungan button {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.hasil {
+	margin: 30px;
+	flex: 1;
+}
+
+.hasil div > button {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.hasil article p > button {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.jumlah,
+.saran {
+	text-align: center;
+}
+
+.hasil .jumlah,
+.saran {
+	background-color: #f0f0f0;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.download {
+	margin-top: 100px;
+	text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+}
